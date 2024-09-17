@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "@mui/x-charts": "^6.19.4",
+    "@react-google-maps/api": "^2.19.2",
+    "@sweetalert2/theme-material-ui": "^5.0.16",
+    "axios": "^1.6.7",
+    "google-map-react": "^2.2.1",
+    "google-maps-react-markers": "^2.0.7",
+    "next": "^14.2.1",
+    "react": "^18",
+    "react-cookie": "^7.1.0",
+    "react-dom": "^18",
+    "react-google-charts": "^4.0.1",
+    "sweetalert2": "^11.10.8",
+    "universal-cookie": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/google-map-react": "^2.1.10",
+    "@types/google.maps": "^3.55.5",
+    "@types/node": "20.10.3",
+    "@types/react": "18.2.41",
+    "@types/react-dom": "^18",
+    "encoding": "^0.1.13",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "typescript": "5.3.2"
+  }
+}

@@ -1,0 +1,2 @@
+web: gunicorn backend.wsgi
+release: python manage.py makemigrations climbing_app_backend && python3 manage.py collectstatic --noinput && python manage.py sqlmigrate climbing_app_backend 0001 && python3 manage.py migrate
